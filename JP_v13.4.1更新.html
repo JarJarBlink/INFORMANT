@@ -2700,17 +2700,15 @@ left: 0;
             font-family: Arial, sans-serif;
             line-height: 1.6;
         }
-        .content {
-            height: 1500px;
-        }
         .back-to-top {
-            position: fixed;
+            position: fixed; /* 固定定位，使其始终在视窗底部 */
             bottom: 10px;
-            right: 450px;
+            right: calc(50% - 310px);
             background-color: #000;
             color: #fff;
             padding: 10px 15px;
             text-decoration: none;
             border-radius: 5px;
+            z-index: 100;
         }
     </style><a href=#top class=back-to-top> 返回頂部</a></article></body>
