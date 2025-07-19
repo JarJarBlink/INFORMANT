@@ -1,0 +1,17 @@
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.back-to-top {
+    position: fixed; 
+    bottom: 10px;
+    right: calc(50% - 330px);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 100;
+}
